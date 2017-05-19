@@ -27,6 +27,7 @@ as
   as
     MP varchar(20);
   begin
+    dbms_session.set_context('NhanVien_context','MaPhong','P00');
     select maPhong
     into MP
     from BT1N28.NHANVIEN_366_454_185
@@ -60,6 +61,9 @@ as
   as
   predicate varchar(2000);
   begin
+    if(sys_context('NhanVien_context','MaPhong') ='P00') then
+      return '1=1';
+    end if;
     if(sys_context('NhanVien_context','KiemTraNhanVienKhongGiuChucVu')=1) then
       predicate:='NHANVIEN_366_454_185.maphong=sys_context(''NhanVien_context'',''MaPhong'')';
       return predicate;

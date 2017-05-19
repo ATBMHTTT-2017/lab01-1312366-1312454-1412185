@@ -43,7 +43,7 @@ Liệt kê các **yêu cầu nâng cao** đã thực hiện:
 * [ ] Chức năng 2
 
 ## Demo
-
+1312366_DEMO:https://youtu.be/7wzAGeazCFM
 Link ảnh GIF demo ứng dụng:
 
 ![Video Walkthrough](demo.gif)

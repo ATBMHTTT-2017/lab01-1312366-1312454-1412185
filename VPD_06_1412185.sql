@@ -1,5 +1,6 @@
 GRANT EXECUTE ON DBMS_RLS TO SYSTEM;
 GRANT EXECUTE ON DBMS_RLS TO BT1N28;
+/*Tạo package chứa context lưu thông tin của user*/
 
 CREATE OR REPLACE CONTEXT ThongTinNhanVien USING NhanVien_pkg;
 CREATE OR REPLACE PACKAGE NhanVien_pkg IS
@@ -29,6 +30,7 @@ WHEN NO_DATA_FOUND THEN NULL;
 END GetThongTinNhanVien;
 END;
 
+/* Tạo trigger để chạy procedure trong package NhanVien_pkg, lấy thông tin nhân viên. */
 CREATE OR REPLACE TRIGGER Set_ThongTinNhanVien AFTER LOGON ON database 
 BEGIN NhanVien_pkg.GetThongTinNhanVien; 
 EXCEPTION 
@@ -40,6 +42,7 @@ END;
 grant execute on NhanVien_pkg to public;
 grant execute on GetThongTinNhanVien to public;
 
+/*Tạo function*/
 
 create or replace function TP_DOC_CT(
   p_schema in varchar2,
@@ -64,7 +67,7 @@ begin
 end;
 
 
-
+/*Thêm policy*/
 
 begin
  DBMS_RLS.ADD_POLICY
@@ -81,7 +84,7 @@ end;
 
 
 
-
+/*Các hàm mở, xoá policy và các package, trigger.*/
 begin
  DBMS_RLS.ENABLE_POLICY
 ( 'BT1N28',

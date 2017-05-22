@@ -84,7 +84,7 @@ end;
 
 
 
-/*Các hàm mở, xoá policy và các package, trigger.*/
+/*Các hàm mở, xoá policy, xem tất cả chi tiêu và các package, trigger.*/
 begin
  DBMS_RLS.ENABLE_POLICY
 ( 'BT1N28',
@@ -109,4 +109,4 @@ drop function TRUONGPHONGDOCCHITIEU;
 drop trigger Set_ThongTinNhanVien;
 drop package NhanVien_pkg;
 
-
+select * from BT1N28.CHITIEU_1312366_1312454_1412185;

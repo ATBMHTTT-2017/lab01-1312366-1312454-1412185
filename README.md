@@ -45,8 +45,8 @@ Liệt kê các **yêu cầu nâng cao** đã thực hiện:
 ## Demo
 1312366_DEMO:https://youtu.be/7wzAGeazCFM
 Link ảnh GIF demo ứng dụng:
-[DAC_03_1412185]https://media.giphy.com/media/3ohzdN05vck97hvzwY/giphy.gif
-[VPD_06_1412185]https://media.giphy.com/media/xUPGcEZGWL5lA7cAWk/giphy.gif
+[DAC_03_1412185](https://media.giphy.com/media/3ohzdN05vck97hvzwY/giphy.gif).
+[VPD_06_1412185](https://media.giphy.com/media/xUPGcEZGWL5lA7cAWk/giphy.gif).
 ![Video Walkthrough](demo.gif)
 
 Tạo ảnh GIF với chương trình [LiceCap](http://www.cockos.com/licecap/).

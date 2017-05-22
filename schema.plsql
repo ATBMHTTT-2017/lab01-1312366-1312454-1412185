@@ -404,6 +404,445 @@ INSERT into BT1N28.ChiTieu_1312366_1312454_1412185 (maChiTieu, tenChiTieu, soTie
 INSERT into BT1N28.ChiTieu_1312366_1312454_1412185 (maChiTieu, tenChiTieu, soTien, duAn) VALUES ('CT98','Fire, Police , Security', 2300000,'DA05');
 INSERT into BT1N28.ChiTieu_1312366_1312454_1412185 (maChiTieu, tenChiTieu, soTien, duAn) VALUES ('CT99','Business (, Consumer) Services', 9600000,'DA07');
 
+/* Tạo tài khoản và role */
+create user nv00 identified by nv00
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 1
+create user nv01 identified by nv01 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 2
+create user nv02 identified by nv02 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 3
+create user nv03 identified by nv03 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 4
+create user nv04 identified by nv04 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 5
+create user nv05 identified by nv05 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 6
+create user nv06 identified by nv06 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 7
+create user nv07 identified by nv07 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 8
+create user nv08 identified by nv08 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 9
+create user nv09 identified by nv09
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 10
+create user nv10 identified by nv10
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 11
+create user nv11 identified by nv11
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 12
+create user nv12 identified by nv12
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 13
+create user nv13 identified by nv13 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 14
+create user nv14 identified by nv14 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 15
+create user nv15 identified by nv15 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 16
+create user nv16 identified by nv16 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 17
+create user nv17 identified by nv17 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 18
+create user nv18 identified by nv18 
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 19
+create user nv19 identified by nv19
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 20
+create user nv20 identified by nv20
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 21
+create user nv21 identified by nv21
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 22
+create user nv22 identified by nv22
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 23
+create user nv23 identified by nv23
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 24
+create user nv24 identified by nv24
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 25
+create user nv25 identified by nv25
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 26
+create user nv26 identified by nv26
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 27
+create user nv27 identified by nv27
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 28
+create user nv28 identified by nv28
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 29
+create user nv29 identified by nv29
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 30
+create user nv30 identified by nv30
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 31
+create user nv31 identified by nv31
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 32
+create user nv32 identified by nv32
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 33
+create user nv33 identified by nv33
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 34
+create user nv34 identified by nv34
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 35
+create user nv35 identified by nv35
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 36
+create user nv36 identified by nv36
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 37
+create user nv37 identified by nv37
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 38
+create user nv38 identified by nv38
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 39
+create user nv39 identified by nv39
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 40
+create user nv40 identified by nv40
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 41
+create user nv41 identified by nv41
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 42
+create user nv42 identified by nv42
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 43
+create user nv43 identified by nv43
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 44
+create user nv44 identified by nv44
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 45
+create user nv45 identified by nv45
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 46
+create user nv46 identified by nv46
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 47
+create user nv47 identified by nv47
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 48
+create user nv48 identified by nv48
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 49
+create user nv49 identified by nv49
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 50
+create user nv50 identified by nv50
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 51
+create user nv51 identified by nv51
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 52
+create user nv52 identified by nv52
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 53
+create user nv53 identified by nv53
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 54
+create user nv54 identified by nv54
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 55
+create user nv55 identified by nv55
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 56
+create user nv56 identified by nv56
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 57
+create user nv57 identified by nv57
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 58
+create user nv58 identified by nv58
+default tablespace users
+temporary tablespace temp
+account unlock;
+-- Nhân viên 59
+create user nv59 identified by nv59
+default tablespace users
+temporary tablespace temp
+account unlock;
+
+
+grant create session to nv00;
+grant create session to nv01;
+grant create session to nv02;
+grant create session to nv03;
+grant create session to nv04;
+grant create session to nv05;
+grant create session to nv06;
+grant create session to nv07;
+grant create session to nv08;
+grant create session to nv09;
+grant create session to nv10;
+grant create session to nv11;
+grant create session to nv12;
+grant create session to nv13;
+grant create session to nv14;
+grant create session to nv15;
+grant create session to nv16;
+grant create session to nv17;
+grant create session to nv18;
+grant create session to nv19;
+grant create session to nv20;
+grant create session to nv21;
+grant create session to nv22;
+grant create session to nv23;
+grant create session to nv24;
+grant create session to nv25;
+grant create session to nv26;
+grant create session to nv27;
+grant create session to nv28;
+grant create session to nv29;
+grant create session to nv30;
+grant create session to nv31;
+grant create session to nv32;
+grant create session to nv33;
+grant create session to nv34;
+grant create session to nv35;
+grant create session to nv36;
+grant create session to nv37;
+grant create session to nv38;
+grant create session to nv39;
+grant create session to nv40;
+grant create session to nv41;
+grant create session to nv42;
+grant create session to nv43;
+grant create session to nv44;
+grant create session to nv45;
+grant create session to nv46;
+grant create session to nv47;
+grant create session to nv48;
+grant create session to nv49;
+grant create session to nv50;
+grant create session to nv51;
+grant create session to nv52;
+grant create session to nv53;
+grant create session to nv54;
+grant create session to nv55;
+grant create session to nv56;
+grant create session to nv57;
+grant create session to nv58;
+grant create session to nv59;
+
+--2 Tao role
+create role truong_du_an;
+create role truong_chi_nhanh;
+create role truong_phong;
+create role nhan_vien;
+--Cấp role cho nhân viên
+--Trưởng dự án
+grant truong_du_an to nv06;
+grant truong_du_an to nv30;
+grant truong_du_an to nv19;
+grant truong_du_an to nv44;
+grant truong_du_an to nv14;
+grant truong_du_an to nv47;
+grant truong_du_an to nv29;
+grant truong_du_an to nv35;
+--Trưởng phòng
+grant truong_phong to nv56;
+grant truong_phong to nv24;
+grant truong_phong to nv50;
+grant truong_phong to nv22;
+grant truong_phong to nv30;
+grant truong_phong to nv07;
+grant truong_phong to nv46;
+grant truong_phong to nv06;
+grant truong_phong to nv33;
+grant truong_phong to nv54;
+grant truong_phong to nv42;
+grant truong_phong to nv18;
+grant truong_phong to nv15;
+grant truong_phong to nv11;
+grant truong_phong to nv58;
+grant truong_phong to nv37;
+grant truong_phong to nv49;
+
+--Trưởng Chi Nhánh
+grant truong_chi_nhanh to nv16;
+grant truong_chi_nhanh to nv31;
+grant truong_chi_nhanh to nv51;
+
+-- Nhân viên bình thường
+grant nhan_vien to nv00;
+grant nhan_vien to nv01;
+grant nhan_vien to nv02;
+grant nhan_vien to nv03;
+grant nhan_vien to nv04;
+grant nhan_vien to nv05;
+grant nhan_vien to nv07;
+grant nhan_vien to nv08;
+grant nhan_vien to nv09;
+grant nhan_vien to nv10;
+grant nhan_vien to nv12;
+grant nhan_vien to nv13;
+grant nhan_vien to nv17;
+grant nhan_vien to nv20;
+grant nhan_vien to nv21;
+grant nhan_vien to nv23;
+grant nhan_vien to nv25;
+grant nhan_vien to nv26;
+grant nhan_vien to nv27;
+grant nhan_vien to nv28;
+grant nhan_vien to nv32;
+grant nhan_vien to nv34;
+grant nhan_vien to nv36;
+grant nhan_vien to nv38;
+grant nhan_vien to nv39;
+grant nhan_vien to nv40;
+grant nhan_vien to nv41;
+grant nhan_vien to nv43;
+grant nhan_vien to nv45;
+grant nhan_vien to nv48;
+grant nhan_vien to nv52;
+grant nhan_vien to nv53;
+grant nhan_vien to nv55;
+grant nhan_vien to nv57;
+grant nhan_vien to nv59;
+
 /* Enable lại các constraint */
 alter table BT1N28.ChiTieu_1312366_1312454_1412185 enable constraint FK_ChiTieu_DuAn;
 
@@ -419,3 +858,5 @@ alter table BT1N28.ChiNhanh_1312366_1312454_1412185 enable constraint FK_ChiNhan
 
 alter table BT1N28.NhanVien_1312366_1312454_1412185 enable constraint FK_NhanVien_ChiNhanh;
 alter table BT1N28.NhanVien_1312366_1312454_1412185 enable constraint FK_NhanVien_PhongBan;
+
+
